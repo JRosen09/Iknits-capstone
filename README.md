@@ -1,1 +1,1 @@
-# Iknits Capstone Project
+# iknits Capstone Project

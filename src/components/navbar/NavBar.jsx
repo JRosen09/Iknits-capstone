@@ -5,13 +5,13 @@ import styles from "../styles/navbar.css";
 const NavBar = () => {
   return (
     <div className="navbar">
-      <Link>
+      <Link to="home">
         <button>Home</button>
       </Link>
-      <Link>
+      <Link to="/patterns">
         <button>My Patterns</button>
       </Link>
-      <Link>
+      <Link to="video_tutorials">
         <button>Video Tutorials</button>
       </Link>
     </div>

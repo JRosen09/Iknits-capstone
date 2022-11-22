@@ -1,7 +1,11 @@
 import React from "react";
 
 const Patterns = () => {
-  return <div>Patterns</div>;
+  return (
+    <div>
+      <h1>Patterns</h1>
+    </div>
+  );
 };
 
 export default Patterns;

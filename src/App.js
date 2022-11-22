@@ -11,11 +11,11 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <NavBar></NavBar>
       <Header></Header>
+      <NavBar></NavBar>
       <Routes>
-        <Route path="/" index element={<Home />} />
-        <Route path="auth" element={<Auth />} />
+        <Route path="/" index element={<Auth />} />
+        <Route path="home" element={<Home />} />
         <Route path="patterns" element={<Patterns />} />
         <Route path="video_tutorials" element={<Vids />} />
       </Routes>
