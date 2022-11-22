@@ -1,11 +1,12 @@
 import React from "react";
+import styles from "../styles/header.css";
 
 const Header = () => {
   return (
-    <div>
-      <h1>Iknits</h1>
-      <h4>Your guide to stylish patterns</h4>
-    </div>
+    <header>
+      <h1>iKNITS</h1>
+      <h4 className="typing">Your guide to stylish patterns!</h4>
+    </header>
   );
 };
 

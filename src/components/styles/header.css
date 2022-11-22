@@ -1,0 +1,33 @@
+header {
+  border: 5px solid blueviolet;
+  box-sizing: border-box;
+
+  align-items: center;
+  padding: 100px 200px;
+}
+
+.typing {
+  overflow: hidden;
+  border-right: 0.15em solid blueviolet;
+  white-space: nowrap;
+  letter-spacing: 2px;
+  animation: typing 5s steps(30, end) infinite, blink 0.75s step-end infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 49%;
+  }
+}
+
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: blueviolet;
+  }
+}

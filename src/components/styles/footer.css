@@ -1,0 +1,11 @@
+footer {
+  border: 4px solid rgb(251, 200, 152);
+  box-sizing: border-box;
+  align-items: center;
+  padding: 0px 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+}
