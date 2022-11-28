@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import styles from "../styles/auth.css";
 
 const Auth = () => {
   const navigate = useNavigate();
@@ -9,7 +10,7 @@ const Auth = () => {
   };
 
   return (
-    <div>
+    <div className="authpg">
       <h1>Welcome!</h1>
       <h3>First Sign In</h3>
       <form>

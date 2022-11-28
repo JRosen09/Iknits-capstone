@@ -17,7 +17,7 @@ function App() {
         <Route path="/" index element={<Auth />} />
         <Route path="home" element={<Home />} />
         <Route path="patterns" element={<Patterns />} />
-        <Route path="video_tutorials" element={<Vids />} />
+        <Route path="video_tutorials" element={<vids />} />
       </Routes>
 
       <Footer />

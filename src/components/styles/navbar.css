@@ -13,5 +13,7 @@
 button {
   height: 25px;
   width: 100px;
+  margin: 10px;
   background-color: aquamarine;
+  border-radius: 5px;
 }

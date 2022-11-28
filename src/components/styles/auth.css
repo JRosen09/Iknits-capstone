@@ -1,0 +1,50 @@
+form {
+  border: 2px solid #5444ed;
+  border-radius: 5px;
+  margin: 10px;
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 20px #cfcfcf;
+}
+
+h1 {
+  align-content: center;
+  text-align: center;
+  margin: 10px;
+}
+
+h3 {
+  text-align: center;
+  margin: 10px;
+}
+
+input {
+  height: 25px;
+  background: transparent;
+  margin: 10px;
+  color: #f0f0f0;
+  border-radius: 5px;
+  text-align: center;
+  border: 2px solid #5444ed;
+}
+
+.submitbtn {
+  border: 1px solid #30fc9d;
+  border-radius: 5px;
+  color: #000000;
+  background: transparent;
+  padding: 1px 20px;
+  transition: 0.5s;
+  margin: 10px;
+}
+
+.form-btn:hover {
+  background-color: #171717;
+  color: #f0f0f0;
+  transform: translateY(-3px);
+}
